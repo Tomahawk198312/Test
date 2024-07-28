@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Привелегии пользователя {{username}}</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+{{#if rights}}
+    <h1>Пользователь {{username}} имеет привилегии: {{result}}</h1>
+{{else}}
+    <h1>Пользователя {{username}} нет</h1>
+{{/if}}
+
+<a href="http://localhost:3000">Назад</a>
+</body>
+</html>
